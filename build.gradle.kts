@@ -8,6 +8,10 @@ group = "com.vincent"
 version = "1.0-SNAPSHOT"
 
 repositories {
+    mavenLocal()
+    maven {
+        setUrl("https://maven.aliyun.com/repository/public/")
+    }
     mavenCentral()
 }
 
